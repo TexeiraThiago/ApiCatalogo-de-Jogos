@@ -13,6 +13,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using ApiCatalogoJogos.Repositories;
 using ApiCatalogoJogos.Services;
+using System.IO;
+using System.Reflection;
+
 namespace ApiCatalogoJogos
 {
     public class Startup
@@ -34,6 +37,10 @@ namespace ApiCatalogoJogos
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiCatalogoJogos", Version = "v1" });
+
+                // var basePath = AppDomain.CurrentDomain.BaseDirectory;
+                // var fileName = typeof(Startup).GetTypeInfo().Assembly.GetName().Name + ".xml";
+                // c.IncludeXmlComments(Path.Combine(basePath, fileName));
             });
         }
 
@@ -46,6 +53,8 @@ namespace ApiCatalogoJogos
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ApiCatalogoJogos v1"));
             }
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();
 

@@ -40,3 +40,9 @@
 /home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/obj/Debug/net5.0/ref/ApiCatalogoJogos.dll
 /home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/obj/Debug/net5.0/ApiCatalogoJogos.pdb
 /home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/obj/Debug/net5.0/ApiCatalogoJogos.genruntimeconfig.cache
+/home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/bin/Debug/net5.0/System.Data.SqlClient.dll
+/home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/lpic1/Documentos/DIO/workspace/Avanade/ApiCatalogoJogos/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
