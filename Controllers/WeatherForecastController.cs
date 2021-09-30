@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace ApiCatalogoJogos.Controllers
+/*namespace ApiCatalogoJogos.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -35,5 +35,5 @@ namespace ApiCatalogoJogos.Controllers
             })
             .ToArray();
         }
-    }
-}
+    } 
+}*/
