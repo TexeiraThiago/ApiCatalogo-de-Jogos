@@ -6,7 +6,7 @@ using ApiCatalogoJogos.Repositories;
 using ApiCatalogoJogos.ViewModel;
 using ApiCatalogoJogos.InputModel;
 using ApiCatalogoJogos.Exceptions;
-
+using ApiCatalogoJogos.Entities;
 
 namespace ApiCatalogoJogos.Services
 {

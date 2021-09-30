@@ -11,7 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-
+using ApiCatalogoJogos.Repositories;
+using ApiCatalogoJogos.Services;
 namespace ApiCatalogoJogos
 {
     public class Startup
@@ -26,6 +27,8 @@ namespace ApiCatalogoJogos
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IJogoService, JogoService>();
+            services.AddScoped<IJogoRepository, JogoRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
